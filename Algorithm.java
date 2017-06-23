@@ -1,3 +1,4 @@
+
 public class Alg {
 	static int i,j,m,n;
 	public static void main(String[] args) {
@@ -19,8 +20,9 @@ public class Alg {
 		peakFinding(nums,i,j);
 		TFin=System.nanoTime();
 		tiempo=TFin-TInicio;
-		System.out.println("Tiempo de ejecución: "+tiempo/1000/1000+" milisegundos");
+		System.out.println("Tiempo de ejecución: "+tiempo/Math.pow(10,6)+" milisegundos");
 	}
+	
 	private static void peakFinding(int[][] nums,int starti,int startj){
 		i=starti;
 		j=startj;
@@ -37,6 +39,6 @@ public class Alg {
 			peak=nums[i][j];
 			System.out.println("Peak: "+peak);
 		}
-
+		
 	}
 }

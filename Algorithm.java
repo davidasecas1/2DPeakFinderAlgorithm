@@ -1,4 +1,6 @@
-
+/**
+ * @author David Espejo Antiñolo
+ */
 public class Alg {
 	static int i,j,m,n;
 	public static void main(String[] args) {
